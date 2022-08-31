@@ -1,22 +1,27 @@
-body {
+* {
     margin: 0;
-    padding: 0
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background: black;
+body {
+    background-color: aliceblue;
+}
+
+.header {
+    background: brown;
     display: flex;
     justify-content: space-between;
     color: white;
-    padding: 0 40px;
+    padding: 20px 40px;
 }
 
 footer {
-    background: black;
+    background: brown;
 }
 
-section {
-    max-width: 1200px;
+.footer {
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
