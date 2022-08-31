@@ -1,0 +1,80 @@
+/*desk*/
+.list-desk {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5em;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.box-desk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #baffba;
+  margin-bottom: 40px;
+  text-align: center;
+  border-radius: 5px;
+  height: 200px;
+}
+.box-desk a {
+  text-decoration: none;
+  font-size: 35px;
+}
+.box-desk-2 a {
+  text-decoration: none;
+  font-size: 35px;
+}
+.box-desk-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  border: 1px solid #baffba;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: #baffba;
+}
+.box-desk-3 a {
+  text-decoration: none;
+  font-size: 35px;
+}
+.box-desk-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  border: 1px solid #baffba;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: #2bcff8;
+}
+.box-desk-4 a {
+  text-decoration: none;
+  font-size: 35px;
+}
+.box-desk-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  border: 1px solid #baffba;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: #ffadad;
+}
+/*Location*/
+.location {
+  margin-top: 50px;
+}
+.location button a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.location button a:hover {
+  text-shadow: 0 0 0.2em #87f, 0 0 0.2em rgb(214, 137, 73),
+    0 0 0.2em rgb(255, 185, 119);
+}
