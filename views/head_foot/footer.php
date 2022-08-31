@@ -1,9 +1,9 @@
-<footer class="">
-    <section>
-        <aside class="box-footer wow zoomIn col-sm-3">
-            <img class="mb-4" src="<?=IMAGE_URL?>footer/grandrestaurant_logo.png" alt="" width="70%">
+<footer>
+    <section class="footer">
+        <aside class="box-footer wow zoomIn">
+            <img class="mb-4" src="<?=IMAGE_URL?>footer/grandrestaurant_logo.png" alt="">
         </aside>
-        <aside class="box-footer wow zoomIn col-sm-3">
+        <aside class="box-footer wow zoomIn col-xs-sm-3">
             <h3>LOCATION</h3>
             <ul class="ul">
                 <li><i class="fas fa-map-marker-alt mr-1"></i> CS1:Số 147 Phùng Hưng,Đồng Xuân,Hoàn Kiếm,Hà Nội</li>
@@ -12,7 +12,7 @@
                 <li><i class="fas fa-envelope mr-1"></i> dinhlcph18273@fpt.edu.vn</li>
             </ul>
         </aside>
-        <aside class="box-footer wow zoomIn col-sm-3">
+        <aside class="box-footer wow zoomIn col-xs-sm-3">
             <h3>REVERSATION</h3>
             <ul class="ul">
                 <li><a href="">0326.669.823 <i class="angle right icon"></i></a></li>
@@ -20,7 +20,7 @@
             </ul>
         </aside>
 
-        <aside class="box-footer wow zoomIn col-sm-3">
+        <aside class="box-footer wow zoomIn col-xs-sm-3">
             <h3>OPENING HOURS</h3>
             <ul class="ul">
                 <li><a href="">Mon-Fri:8:30am - 10:30pm <i class="angle right icon"></i></a></li>

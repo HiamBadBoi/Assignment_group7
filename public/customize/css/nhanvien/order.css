@@ -1,0 +1,236 @@
+
+
+
+.list_table {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:; */
+    width: 100%;
+}
+.list_table_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    height: 165px;
+    /* margin-top: 2%; */
+    margin: 2% 1% 0 1%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.list_table_item form{
+    width: 100%;
+    height: 100%;
+
+}
+.list_table_item form button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    /* background: #C4C4C4; */
+
+}
+.menu-order {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.list-food {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #acacac;
+}
+.food-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+
+}
+.food-image img {
+    width: 95%;
+}
+.food-image-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+
+}
+.food-image-item img {
+    width: 95%;
+}
+.list-food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    margin: 2% 1%;
+    border-radius: 12px;
+    border: 2px groove #acacacbd;
+    padding-bottom: 0.2em;
+}
+.list-food-item .name{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.list-food-item .price{
+    font-size: 18px;
+    padding-left: 5%;
+}
+.list-food-item form button {
+    width: 100%;
+    background: #EB7676;
+    height: 50px;
+    border: 2px outset #EB7676;
+    color: rgba(0, 0, 0, 0.856);
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.list_categorys {
+    width: 19%;
+    margin-left: 1%;
+    border-radius: 5px;
+    border: 1px solid #acacac;
+}
+.list_categorys .title{
+    width: 100%;
+    color: #666;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+
+}
+.list_categorys ul{
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+.list_categorys ul li{
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+
+}
+.list_categorys a{
+    text-decoration: none;
+    color: #666;
+}
+.detail-bill {
+    width: 100%;
+    margin-top: 2%;
+}
+.detail-bill table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #acacac;
+    border-radius: 5px;
+}
+.detail-bill table tbody td,
+.detail-bill table th{
+    border: 1px solid #acacac;
+    padding: 15px 20px;
+    text-align: center;
+
+}
+.detail-bill table th{
+    text-align: center;
+}
+/* .detail-bill table tbody td:nth-child(1){
+    overflow-x: hidden;
+} */
+.detail-bill table tbody td:nth-child(2){
+    text-align: left;
+}
+/* .detail-bill table tbody td:nth-child(3){
+    width: 15%;
+} */
+.detail-bill table tfoot td{
+    border: 1px solid #acacac;
+    height: 80px;
+    text-align: center;
+}
+.detail-bill table tfoot td:nth-child(3)  button,
+.detail-bill table tfoot td:nth-child(4)  button{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.detail-bill table tfoot td:nth-child(3)  button a,
+.detail-bill table tfoot td:nth-child(4)  button a{
+    color: white;
+    text-decoration: none;
+}
+/*  */
+.order-bill {
+    width: 100%;
+    margin-top: 2%;
+}
+.order-bill table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #acacac;
+    border-radius: 5px;
+}
+.order-bill table tbody td,
+.order-bill table th{
+    border: 1px solid #acacac;
+    padding: 15px 20px;
+    text-align: center;
+
+}
+.order-bill table th{
+    text-align: center;
+}
+.order-bill table tbody td:nth-child(1){
+    width: 15%;
+}
+.order-bill table tbody td:nth-child(2){
+    text-align: left;
+}
+.order-bill table tbody td:nth-child(3){
+    width: 15%;
+}
+.order-bill table tfoot td{
+    border: 1px solid #acacac;
+    height: 80px;
+    text-align: center;
+}
+
+.order-bill table tfoot td:nth-child(3) a button,
+.order-bill table tfoot td:nth-child(4) a button{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 500;
+}
+.order-bill table tfoot td:nth-child(3)  button a,
+.order-bill table tfoot td:nth-child(4)  button a{
+    color: white;
+    text-decoration: none;
+}
+.order-bill table tfoot td:nth-child(3)  button,
+.order-bill table tfoot td:nth-child(4)  button{
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 500;
+}
+.quaylai a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+

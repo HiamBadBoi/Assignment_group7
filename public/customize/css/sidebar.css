@@ -1,0 +1,55 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.menu-bar {
+    font-size: 1em;
+}
+
+.menu * {
+    padding: 0.4em 0.5em;
+}
+
+ul.menu li p,
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover {
+    color: white;
+    text-shadow: 0 0 0.2em #87f, 0 0 0.2em rgb(214, 137, 73), 0 0 0.2em rgb(255, 185, 119);
+    font-size: 1em;
+}
+
+aside {
+    background-color: brown;
+}
+
+
+/* ================================================== PROFILE ============================================ */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.profile * {
+    margin: 0.2em 0;
+}
+
+.profile-name,
+.profile-role {
+    color: white;
+    text-shadow: 0 0 0.2em #87f, 0 0 0.2em rgb(214, 137, 73), 0 0 0.2em rgb(255, 185, 119);
+}
+
+.btn-logout {
+    color: white;
+    border-radius: 10px;
+}
